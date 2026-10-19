@@ -1,0 +1,27 @@
+{
+  "name": "tp03-todo-api-docker-postgres",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgresql",
+    "docker",
+    "api-rest"
+  ],
+  "author": "Gian Franco Josias Moreyra",
+  "license": "MIT",
+  "description": "TP03 - TODO API con Node.js, Docker Compose y PostgreSQL",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
